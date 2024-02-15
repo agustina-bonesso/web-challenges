@@ -37,47 +37,47 @@ main {
 
 .box--top-left {
   background-color: #aed6f1;
+  position: relative;
+  top: 0;
+  right: 0;
 }
 
 .box--top-center {
   background-color: #85c1e9;
   position: relative;
-  top: -80px;
-  left: 220px;
+  left: 210px;
+  bottom: 5rem;
 }
 
 .box--top-right {
   background-color: #5dade2;
   position: relative;
   left: 420px;
-  top: -160px;
-
-
+  bottom: 160px;
 }
 
 .box--center {
   background-color: #3498db;
   position: relative;
-  left: 220px;
-
+  left: 210px;
 }
 
 .box--bottom-left {
   background-color: #2874a6;
   position: relative;
-  bottom: -200px;
+  top: 12.5rem;
 }
 
 .box--bottom-center {
   background-color: #21618c;
   position: relative;
-  bottom: -120px;
-  left: 220px;
+  top: 7.5rem;
+  left: 13.125rem;
 }
 
 .box--bottom-right {
   background-color: #1b4f72;
   position: relative;
-  left: 420px;
-  bottom: -40px;
+  right: -26.25rem;
+  top: 40px;
 }

@@ -19,7 +19,7 @@ ul {
 
 .navigation__menu{
 display: flex;
-justify-content: ;
+justify-content: space-between;
 
 }
 
