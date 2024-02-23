@@ -1,0 +1,39 @@
+console.clear();
+
+/*
+1. Create the data for a small social media post. Create a const variable for each data point listed below.:
+	- a title
+	- a text
+	- the number of likes
+	- the user who created the post
+	- a boolean called isReported
+*/
+
+//title 
+
+const title = new String("Title");
+console.log(title);
+
+const text = new String;
+console.log(text)
+
+let numberOfLikes = new Number;
+numberOfLikes++;
+console.log(numberOfLikes)
+const userPost = new String("User");
+const posted = new Boolean;
+
+console.log(posted);
+
+
+// --v-- write your code here --v--
+
+// --^-- write your code here --^--
+
+/*
+2. Log all variables to the console. Increase the likes by one and log the amount of likes again. Adapt your code from 1.1 if necessary.
+*/
+
+// --v-- write your code here --v--
+
+// --^-- write your code here --^--
