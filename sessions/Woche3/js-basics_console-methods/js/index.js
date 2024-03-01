@@ -21,3 +21,5 @@ console.clear();
         console.error('error', code)
         console.log(error);
 // Well done!
+console.log("Hier")
+
