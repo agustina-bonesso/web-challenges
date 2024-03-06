@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Forms and A11y</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <section>
+      <h1 class="title">Understanding A11y in Forms</h1>
+      <p id="description">
+        Please let us know how we can support you with a11y issues.
+      </p>
+
+      <form>
+        <fieldset>
+          <legend>Enter your information</legend>
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name"/>
+
+          <label for="age-input">Age:</label>
+          <input type="number" name="age" id="age"/>
+          
+          <label for="color-input">Color you cannot see:</label>
+          <input id="color-Input" type="color" name="color" />
+
+          <textarea name="message" id="message" rows="7" placeholder="Leave us a message..."></textarea>
+          <button type="submit">Submit</button>
+        </fieldset>
+      </form>
+    </section>
+  </body>
+</html>
+
+<!-- <label for="first-name">First name</label> -->
+<!-- <input type="text" name="first-name" id="first-name" /> -->
+<!-- <label for="age">Age</label> <input type="number" name="age" id="age" /> -->
+<!-- <label for="favorite-color">Favorite color</label> -->
+<!-- <input type="color" name="favorite-color" id="favorite-color" /> -->
+<!-- <label for="personal-message">Personal Message</label> -->
+<!-- <textarea name="personal-message" id="personal-message"></textarea> -->

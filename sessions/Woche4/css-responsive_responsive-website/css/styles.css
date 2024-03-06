@@ -332,6 +332,6 @@ width, etc. */
       background-image: url("../img/forest.jpg");
       background-size: cover;
       width: 100vw;
-      height: 60vh;
+      height: 0vh;
     }
 }

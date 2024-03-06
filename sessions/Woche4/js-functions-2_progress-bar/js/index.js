@@ -31,4 +31,4 @@ document.addEventListener("scroll", (event) => {
   //progressBar.style.width = calculateScrollPercentage();
 
 });
-
+onscroll
