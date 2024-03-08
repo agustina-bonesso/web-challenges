@@ -44,7 +44,6 @@ article.innerHTML = `
 <span class="product__price">${price}€</span>
 <button type="button" class="product__buy-button">Buy</button>
 </footer>
-
 `;
 
 const buyButton = document.querySelector("button");
@@ -52,8 +51,8 @@ const buyButton = document.querySelector("button");
 buyButton.addEventListener("click", () => {
   const collection = document.body.children;
   for (let i = 1; i < collection.length; i++) {
-    console.log(collection[i].children[0].getElementsByClassName("product__name")[0]);
-    console.log(collection[i].children[1].getElementsByClassName("product__price")[0]);
+    console.log(collection[i].children[0].getElementsByClassName("product__name")[0].textContent);
+    console.log(collection[i].children[1].getElementsByClassName("product__price")[0].textContent);
 
   }
 
