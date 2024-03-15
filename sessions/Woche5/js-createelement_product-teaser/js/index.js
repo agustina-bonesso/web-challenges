@@ -46,14 +46,16 @@ article.innerHTML = `
 </footer>
 `;
 
-const buyButton = document.querySelector("button");
+const buyButton = document.querySelectorAll("button");
+buyButton.forEach(function (productItem) {
+  productData(productItem);});
 
-buyButton.addEventListener("click", () => {
-  const collection = document.body.children;
-  for (let i = 1; i < collection.length; i++) {
-    console.log(collection[i].children[0].getElementsByClassName("product__name")[0].textContent);
-    console.log(collection[i].children[1].getElementsByClassName("product__price")[0].textContent);
-
-  }
-
-});
+function productData(productData){  
+  productData.addEventListener('click', () => {
+    const productName = productData.parentNode.parentNode.querySelector(".product__name").textContent;
+    const productPrice = productData.parentNode.querySelector(".product__price").textContent;
+    
+    console.log(`Product Name: ${productName}
+                Product Price: ${productPrice}`);
+  })
+}

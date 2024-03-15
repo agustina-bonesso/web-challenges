@@ -41,12 +41,15 @@ console.log(allCardsThatAreNotBookmarked);
 
 const allCardsWithTagsHTMLOrJSThatAreBookmarked = cards.filter((card) => {
   return (
-    (card.tags.includes("html") || card.tags.includes("js")) &&
-    card.isBookmarked === true
+    card.isBookmarked === true &&
+    (card.tags.includes("html") || card.tags.includes("js"))
   );
 });
+//tags: ["html", "elements", "basic"],
+const values = ["gato", "perro", "raton", "caballo"];
+console.log(values.includes("oso" || "cabra"));
+console.log(values.includes("oso" && "raton"));
 
-console.log(allCardsWithTagsHTMLOrJSThatAreBookmarked);
 export {
   onlyCardWithIdTwo,
   allCardsWith3Tags,
