@@ -6,8 +6,8 @@ export async function fetchNewColor() {
 
   const response = await fetch(colorApiUrl);
   const data = await response.json();
-  const dexValue = data.hex.value;
-  const nameColor = data.name.valuex;
+  const dexValue = data.name.closest_named_hex;
+  const nameColor = data.name.value;
   setColorToGuess(dexValue, nameColor);
 
   console.log(data);
