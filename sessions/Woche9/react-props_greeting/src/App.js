@@ -1,15 +1,18 @@
 import "./styles.css";
-
+const couchs = ["Roland"];
 export default function App() {
   return (
     <div>
-      <Greeting name="Mio" />
+      <Greeting name="Roland" isCouch={couchs.includes(name)} />
     </div>
   );
 }
 
-function Greeting({ name }) {
-  return `Hallo ${name}`;
+function Greeting({ isCouch, name }) {
+  if (isCouch) {
+    return <h1>Hallo Couch</h1>;
+  }
+  return <h1>Hallo {name}</h1>;
 }
 
 /*
